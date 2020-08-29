@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400,900&display=swap");
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900&display=swap');
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 body,
 html,
 .view {
@@ -7,7 +7,7 @@ html,
 }
 
 .bg1 {
-  background-image: url("../assets/images/Homepage/2.jpg");
+  background-image: url('../assets/images/Homepage/2.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ html,
 }
 
 .bg2 {
-  background-image: url("../assets/images/Homepage/1.jpg");
+  background-image: url('../assets/images/Homepage/1.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ html,
 }
 
 .bg3 {
-  background-image: url("../assets/images/Homepage/3.jpg");
+  background-image: url('../assets/images/Homepage/3.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,7 +31,7 @@ html,
 }
 
 .bg4 {
-  background-image: url("../assets/images/Homepage/4.jpg");
+  background-image: url('../assets/images/Homepage/4.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,13 +44,15 @@ h1 {
   letter-spacing: 2px;
 }
 
-.top-nav-collapse {
-  background-color: #3f51b5 !important;
+.navbar {
+  background: rgba(255, 255, 255, 0) !important;
+  backdrop-filter: blur(4px);
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #3f51b5 !important;
+    background: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: blur(4px);
   }
 }
 
